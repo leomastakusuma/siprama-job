@@ -1,0 +1,155 @@
+.tittle{
+  text-transform: uppercase;
+  text-align: center;
+}
+.row{
+  margin-top: 0px;
+}
+.btn-resets{
+  padding: 1.50em;
+  font-size: 3em;
+  min-height: 6.375em;
+  white-space: inherit;
+}
+.btn-resetter{
+  padding: 1.50em 2.5em;
+  font-size: 3em;
+  white-space: inherit;
+}
+.clear-btn{
+  background-color: #fff;
+}
+.carousel-inner{
+  margin-bottom: 0;
+}
+.homesection,
+.home-header,
+.headline,
+.editorChoices,
+.trending,
+.stories,
+.latest-news,
+.news-boost,
+.box-type{
+  margin-bottom: 1.25em;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-header{
+  min-height: 6.250em;
+}
+.headline{
+  min-height: 18.500em;
+}
+.editorChoices{
+  min-height: 20em;
+}
+.trending{
+  min-height: 20em;
+}
+.editChoice{
+  border: 1px solid black;
+  width: 5em;
+  height: 5em;
+}
+.editorChoices-item{
+  padding: 0 2em;
+}
+.editorChoices-item-control{
+  position: absolute;
+  top: 30%;
+  font-size: 3em;
+}
+.right{
+  right:-0.5em;
+}
+.left{
+  left:-0.5em;
+}
+.containers-item{
+  padding: 0;
+   margin: 0;
+   list-style: none;
+   -ms-box-orient: horizontal;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -moz-flex;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-items: stretch;
+   align-items: stretch;
+}
+.wide-stories:nth-of-type(odd) { flex-grow: 1; }
+.wide-stories:nth-of-type(even) { flex-grow: 1; }
+
+
+
+.wide-stories{
+  margin: 0.5em 0;
+}
+.wider{
+  width : 84em;
+}
+.md-wider{
+  /* width: 20em; */
+}
+.md-wider-boost{
+  width: 40em;
+}
+.btn-wider-boost{
+  width: 16.2em;
+}
+@media (min-width: 980px) {
+.wrapper-mid {
+    width: 51.5%;
+}
+    .containers-item{
+    width: 1098px;
+    }
+    .btn-wide {
+    width: 17.8em;
+}
+
+}
+@media (min-width: 1280px) {
+.wrapper-mid {
+    width: 54%;
+}
+}
+@media (min-width: 1360px) {
+.wrapper-mid {
+    width: 51%;
+}
+}
+@media (min-width: 1366px) {
+.wrapper-mid {
+    width: 58%;
+}
+}
+@media (min-width: 1600px) {
+.wrapper-mid {
+    width: 47.5%;
+}
+}
+@media (min-width: 1920px) {
+.wrapper-mid {
+    width: 38.5%;
+}
+}
+.btn-wide{
+  width: 24.7em;
+}
+.btn-wider{
+  width: 8em;
+}
